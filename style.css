@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'YS Text';
+  src: url(/font/YandexSansText-Regular.ttf)
+      url(/font/YandexSansText-Regular.woff),
+    url(/font/YandexSansText-Regular.woff2);
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 28px;
+}
+#main {
+  position: relative;
+}
+#shelvesWithGoods {
+  position: relative;
+
+  z-index: -10;
+}
+#cart {
+  position: relative;
+}
+#shoppingCart {
+  margin-top: -92.03px;
+}
+.products {
+  position: absolute;
+}
+#wine {
+  bottom: 313.23px;
+  left: 22px;
+}
+#milk {
+  bottom: 312.63px;
+  left: 64px;
+}
+#jam {
+  bottom: 313.01px;
+  left: 103px;
+}
+#cheese {
+  bottom: 310.98px;
+  left: 158px;
+}
+#meat {
+  bottom: 214.01px;
+  left: 7px;
+}
+#chickenLeg {
+  bottom: 203.07px;
+  left: 58px;
+}
+#chips {
+  bottom: 211.37px;
+  left: 129px;
+}
+#pineapple {
+  bottom: 123.27px;
+  left: 13px;
+}
+#bananas {
+  bottom: 121.94px;
+  left: 58px;
+}
+#apple {
+  bottom: 122.36px;
+  left: 115px;
+}
+#greenery {
+  bottom: 116.37px;
+  left: 156px;
+}
+
+#button {
+  padding: 12px 18px;
+  border-radius: 16px;
+  background-color: #fce000;
+  position: absolute;
+  top: 524px;
+  display: none;
+}
+#buttonLink {
+  font-family: YS Text, 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #21201f;
+}
+#cart > .inCart {
+  bottom: 50.33px;
+  z-index: -1;
+  margin-left: 59.63px;
+}
